@@ -1,0 +1,5 @@
+python-dotenv
+yt-dlp
+openai-whisper
+tiktoken
+openai 
