@@ -38,9 +38,7 @@ class YouTubeClipExtractor:
             output_file
         ]
 
-        print(f"✂️ Cutting {start}s to {end}s -> {output_file}")
         subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        print(f"🎬 Clip saved: {output_file}")
 
         return output_file
 
